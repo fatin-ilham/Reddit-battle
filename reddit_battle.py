@@ -1,9 +1,9 @@
-
+#Two AI bots arguing like a redditor
 
 import sys
 import ollama
 
-MODEL = ""
+MODEL = "" #You can use your model here. Make sure you write the name properly.
 MAX_TURNS = 10
 TEMPERATURE = 0.9
 
