@@ -48,7 +48,8 @@ An interactive AI debate simulator where two LLM agents with distinct Reddit-ins
 
 ## 📸 Screenshot
 
-*Add a screenshot here showing the battle in action*
+<img width="1919" height="796" alt="image" src="https://github.com/user-attachments/assets/8dbba997-fbd9-4b41-bbb3-b3e944a8d9b3" />
+
 
 ## 🛠️ Tech Stack
 
@@ -81,4 +82,4 @@ MIT License - feel free to use and modify!
 
 ---
 
-Built with ❤️ by [Fatin Ilham](https://github.com/YOUR_USERNAME)
+Built with ❤️ by [Fatin Ilham](https://github.com/fatin-ilham)
