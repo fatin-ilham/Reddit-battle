@@ -271,4 +271,4 @@ st.markdown("<h3 style='color: #1A1A1B;'>How to use:</h3>", unsafe_allow_html=Tr
 st.markdown("<ol style='color: #1A1A1B;'><li>Enter a controversial topic above</li><li>Adjust typing speed in sidebar if you want</li><li>Click 'START BATTLE'</li><li>Watch the live battle unfold!</li></ol>", unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #787C7E; font-size: 12px;'><em>Built with Streamlit + OpenRouter</em> | <strong>Made by Fatin Ilham</strong> © 2026</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #787C7E; font-size: 12px;'><em>Built with Streamlit + OpenRouter</em> | <strong>Made by Fatin Ilham / Payne</strong> © 2026</p>", unsafe_allow_html=True)

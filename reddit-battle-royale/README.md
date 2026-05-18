@@ -133,6 +133,6 @@ Found a bug? Want a feature? Open an issue or PR!
 
 ---
 
-**Built with ❤️ by [Fatin Ilham](https://github.com/fatin-ilham)**
+**Built with ❤️ by [Fatin Ilham / Payne](https://github.com/fatin-ilham)**
 
 *Made for fun. No Redditors were harmed in the making of this app.*
