@@ -27,11 +27,13 @@ Watch AI agents with distinct Reddit personas argue over any topic while a neutr
 
 ## 📸 Screenshots
 
-![Battle Demo](https://via.placeholder.com/800x450/DAE0E6/1A1A1B?text=Reddit+Battle+Royale+-+Live+Debate+Interface)
+<img width="1918" height="838" alt="image" src="https://github.com/user-attachments/assets/9ecf9147-19b0-47ed-8f1f-1a0adbb0bc2d" />
+
 
 *Above: Watch the battle unfold in real-time with Reddit-style UI*
 
-![Verdict](https://via.placeholder.com/800x300/FFFFFF/1A1A1B?text=AI+Judge+Delivers+Verdict)
+<img width="1559" height="323" alt="image" src="https://github.com/user-attachments/assets/b194e18e-3271-44db-a603-52520eab7a35" />
+
 
 *Above: The AI judge delivers a brutal but fair verdict*
 
