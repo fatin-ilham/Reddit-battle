@@ -1,69 +1,95 @@
 # 🗡️ Reddit Battle Royale
 
-An interactive AI debate simulator where two LLM agents with distinct Reddit-inspired personas argue against each other on any topic, with a third AI judge deciding the winner.
+**Two AI bots walk into a debate. One leaves victorious.**
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-Cloud%20LLMs-green)
+Watch AI agents with distinct Reddit personas argue over any topic while a neutral AI judge declares a winner. Built for entertainment, powered by LLMs.
+
+[![Try Demo](https://img.shields.io/badge/🚀-Try%20Demo-FF4500?style=for-the-badge)](YOUR_STREAMLIT_CLOUD_LINK_HERE)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
+
+---
 
 ## 🎯 What It Does
 
-- **Two AI bots** with opposing personalities debate any topic you choose
-- **Live battle** unfolds turn-by-turn with typing animations
-- **AI Judge** analyzes the argument and declares a winner
-- **Customizable** number of turns and typing speed
+- 🔥 **Two AI bots** with opposing Reddit personalities debate any topic
+- ⚡ **Live battle** unfolds turn-by-turn with typing animations
+- ⚖️ **AI Judge** analyzes arguments and declares a winner
+- 🎮 **Customizable** turns, speed, and bot personalities
 
-## 🤖 The Bots
+## 🤖 Meet The Fighters
 
-| Bot | Name | Personality |
-|-----|------|-------------|
-| **Bot A** | AverageRedditor47 | Passive-aggressive know-it-all who "ackshually" corrects everyone |
-| **Bot B** | BasedAndHonest | Chaotic shitposter who uses ALL CAPS and calls people NPCs |
-| **Judge** | NeutralObserver69 | Unbiased lurker who delivers brutal but fair verdicts |
+| Bot | Name | Personality | Style |
+|-----|------|-------------|-------|
+| 🤓 | **AverageRedditor47** | Passive-aggressive know-it-all | "ackshually", "source?", "cringe" |
+| 😎 | **BasedAndHonest** | Chaotic shitposter | ALL CAPS, "npc", "cope", "ratio" |
+| ⚖️ | **NeutralObserver69** | Objective lurker judge | "based", "mid", "L + ratio" |
+
+## 📸 Screenshots
+
+![Battle Demo](https://via.placeholder.com/800x450/DAE0E6/1A1A1B?text=Reddit+Battle+Royale+-+Live+Debate+Interface)
+
+*Above: Watch the battle unfold in real-time with Reddit-style UI*
+
+![Verdict](https://via.placeholder.com/800x300/FFFFFF/1A1A1B?text=AI+Judge+Delivers+Verdict)
+
+*Above: The AI judge delivers a brutal but fair verdict*
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Try the Live Demo
 
-1. Get your OpenRouter API key from [openrouter.ai](https://openrouter.ai)
+1. Click the **Try Demo** badge at the top
+2. Enter any controversial topic
+3. Watch the AI battle unfold!
 
-2. Clone this repository:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/reddit-battle-royale.git
-    cd reddit-battle-royale
-    ```
+### Option 2: Run Locally
 
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+**Prerequisites:**
+- Python 3.8+
+- OpenRouter API key (get one free at [openrouter.ai](https://openrouter.ai))
 
-4. Run the app:
-    ```bash
-    streamlit run reddit_battle_streamlit.py
-    ```
+**Steps:**
 
-## 📸 Screenshot
+```bash
+# Clone the repo
+git clone https://github.com/fatin-ilham/Reddit-battle.git
+cd Reddit-battle
 
-*Add a screenshot here showing the battle in action*
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your API key
+# Create a .env file with: OPENROUTER_API_KEY=your_key_here
+
+# Run the app
+streamlit run reddit_battle_streamlit.py
+```
 
 ## 🛠️ Tech Stack
 
-- **Streamlit** - Interactive web UI
-- **OpenRouter** - Cloud LLM API access
-- **Python** - Backend logic
+| Component | Technology |
+|-----------|------------|
+| Frontend | Streamlit |
+| Backend | Python 3.8+ |
+| LLM API | OpenRouter (Qwen 2.5 7B) |
+| Hosting | Streamlit Cloud |
 
 ## 📝 Features
 
-- ✅ Custom CSS styling matching Reddit's aesthetic
+- ✅ Reddit-inspired UI design
 - ✅ Real-time chat interface with avatars
-- ✅ Session state management for battle control
+- ✅ Typing animations for realism
 - ✅ Adjustable battle settings (turns, speed)
-- ✅ Dynamic winner celebration effects
+- ✅ Celebration effects (balloons/snow) for winners
+- ✅ Custom bot personalities via system prompts
+- ✅ Session state management
 
 ## 🔧 Customization
 
-You can easily modify the bots by editing their system prompts in the code:
+### Change Bot Personalities
+
+Edit the system prompts in `reddit_battle_streamlit.py`:
 
 ```python
 BOT_A = {
@@ -72,10 +98,39 @@ BOT_A = {
 }
 ```
 
+### Add New Bots
+
+Add more bot configurations and modify the turn logic to include them.
+
+### Change the Model
+
+Update the `MODEL` variable to use different OpenRouter models:
+
+```python
+MODEL = "meta-llama/llama-3-8b-instruct"  # or any OpenRouter model
+```
+
+## 🎮 Example Battles
+
+Try these topics:
+
+- "Is water wet?"
+- "Pineapple on pizza: yes or no?"
+- "Vim vs Emacs"
+- "Tabs vs Spaces"
+- "Is a hotdog a sandwich?"
+- "Should AI have rights?"
+
 ## 📄 License
 
-MIT License - feel free to use and modify!
+MIT License - feel free to use, modify, and distribute!
+
+## 🙋 Contributing
+
+Found a bug? Want a feature? Open an issue or PR!
 
 ---
 
-Built with ❤️ by [Fatin Ilham](https://github.com/YOUR_USERNAME)
+**Built with ❤️ by [Fatin Ilham](https://github.com/fatin-ilham)**
+
+*Made for fun. No Redditors were harmed in the making of this app.*

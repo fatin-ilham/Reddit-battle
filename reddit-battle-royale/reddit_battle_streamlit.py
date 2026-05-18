@@ -2,7 +2,14 @@ import streamlit as st
 from openai import OpenAI
 import time
 
-st.set_page_config(page_title="Reddit Battle Royale", page_icon="🗡️", layout="wide")
+st.set_page_config(
+    page_title="Reddit Battle Royale",
+    page_icon="🗡️",
+    layout="wide",
+    menu_items={
+        "About": "Built by Fatin Ilham | [GitHub](https://github.com/fatin-ilham/Reddit-battle)"
+    }
+)
 
 # Try Streamlit secrets first, then .env file
 api_key = st.secrets.get("OPENROUTER_API_KEY")
