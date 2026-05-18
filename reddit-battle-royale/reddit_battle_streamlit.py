@@ -1,12 +1,23 @@
 import streamlit as st
 from openai import OpenAI
 import time
-import os
 
 st.set_page_config(page_title="Reddit Battle Royale", page_icon="🗡️", layout="wide")
 
+# Try Streamlit secrets first, then .env file
+api_key = st.secrets.get("OPENROUTER_API_KEY")
+if not api_key:
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    api_key = os.getenv("OPENROUTER_API_KEY")
+
+if not api_key:
+    st.error("Missing OPENROUTER_API_KEY. Add to .env file or Streamlit secrets.")
+    st.stop()
+
 client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY"),
+    api_key=api_key,
     base_url="https://openrouter.ai/api/v1"
 )
 
