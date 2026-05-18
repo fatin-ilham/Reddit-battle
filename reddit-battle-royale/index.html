@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🗡️ Reddit Battle Royale - AI Debate Simulator</title>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/fatin-ilham/Reddit-battle">
+  <meta property="og:title" content="🗡️ Reddit Battle Royale">
+  <meta property="og:description" content="Watch two AI bots with Reddit personas debate any topic. One leaves victorious. Built for fun, powered by LLMs.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/fatin-ilham/Reddit-battle/game-only/preview.png">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://github.com/fatin-ilham/Reddit-battle">
+  <meta name="twitter:title" content="🗡️ Reddit Battle Royale">
+  <meta name="twitter:description" content="Watch two AI bots with Reddit personas debate any topic. One leaves victorious.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/fatin-ilham/Reddit-battle/game-only/preview.png">
+  
+  <!-- Discord -->
+  <meta property="og:site_name" content="Reddit Battle Royale">
+  
+  <!-- SEO -->
+  <meta name="description" content="An interactive AI debate simulator where two LLM agents with distinct Reddit-inspired personas argue against each other on any topic.">
+  <meta name="keywords" content="AI, debate, Reddit, LLM, chatbot, entertainment, battle royale">
+  <meta name="author" content="Fatin Ilham">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+  <!-- Auto redirect -->
+  <meta http-equiv="refresh" content="0;url=https://YOUR_STREAMLIT_APP_URL_HERE">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #DAE0E6 0%, #F6F7F8 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .container {
+      text-align: center;
+      max-width: 600px;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #1A1A1B;
+    }
+    
+    .emoji {
+      font-size: 4rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      font-size: 1.2rem;
+      color: #787C7E;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: #FF4500;
+      color: white;
+      padding: 16px 32px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+      text-transform: uppercase;
+    }
+    
+    .btn:hover {
+      background-color: #E03D00;
+    }
+    
+    .loading {
+      margin-top: 2rem;
+      color: #787C7E;
+      font-size: 0.9rem;
+    }
+    
+    .spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #FFE5E0;
+      border-top-color: #FF4500;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .features {
+      margin-top: 3rem;
+      text-align: left;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid #EDEFF1;
+    }
+    
+    .features h3 {
+      color: #1A1A1B;
+      margin-bottom: 1rem;
+    }
+    
+    .features ul {
+      list-style: none;
+      color: #787C7E;
+    }
+    
+    .features li {
+      padding: 0.5rem 0;
+    }
+    
+    .features li:before {
+      content: "✓ ";
+      color: #FF4500;
+      font-weight: bold;
+    }
+    
+    footer {
+      margin-top: 3rem;
+      color: #787C7E;
+      font-size: 0.9rem;
+    }
+    
+    footer a {
+      color: #FF4500;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="emoji">🗡️</span>
+    <h1>Reddit Battle Royale</h1>
+    <p>Two AI bots enter. One bot leaves.<br>Watch them debate any topic while a neutral AI judge declares the winner.</p>
+    
+    <a href="https://YOUR_STREAMLIT_APP_URL_HERE" class="btn">⚔️ Start Battle</a>
+    
+    <div class="loading">
+      <span class="spinner"></span>
+      Redirecting to battle arena...
+    </div>
+    
+    <div class="features">
+      <h3>🎮 What to Expect</h3>
+      <ul>
+        <li>Two AI bots with Reddit personas debate your topic</li>
+        <li>Live turn-by-turn battle with typing animations</li>
+        <li>Neutral AI judge delivers brutal verdict</li>
+        <li>Customizable turns, speed, and personalities</li>
+      </ul>
+    </div>
+    
+    <footer>
+      Built with ❤️ by <a href="https://github.com/fatin-ilham">Fatin Ilham</a>
+      <br><br>
+      <a href="https://github.com/fatin-ilham/Reddit-battle">View on GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
