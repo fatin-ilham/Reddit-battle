@@ -28,7 +28,7 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1"
 )
 
-MODEL = "google/gemini-3.5-flash"
+MODEL = "openrouter/free"
 
 BOT_A = {
     "name": "AverageRedditor47",
