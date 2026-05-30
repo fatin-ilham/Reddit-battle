@@ -28,7 +28,7 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1"
 )
 
-MODEL = "qwen/qwen3.6-plus"
+MODEL = "qwen/qwen3.6-flash"
 
 BOT_A = {
     "name": "AverageRedditor47",
